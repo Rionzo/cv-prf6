@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,12 +14,12 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li><a href="#xp" id="xp">Expériences</a></li>
-                <li><a href="#compet" id="compet">Compétences</a></li>
-                <li><a href="#forma" id="forma">Formations</a></li>
+                <li><a href="#xp" id="#xp">Expériences</a></li>
+                <li><a href="#compet" id="#compet">Compétences</a></li>
+                <li><a href="#forma" id="#forma">Formations</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#" id="#contact"><button>Contact</button></a>
+        <a class="cta" href="#contact" id="#contact"><button>Contact</button></a>
     </header>
     <main>
         <section>
@@ -64,12 +64,36 @@
                         <p>Bachelor Informatique :
                             Développeur web avec des bases.
                             </p>
+                        <p class="opa"></p>
                     </div>
                 </div>
         </section>
     </main>
     <footer>
+        <section>
+            <div class="footer">
+                <h1 class="footer-title">Contact</h1>
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <label for="mail"></label>
+                        <input type="email" id="mail" name="user_mail" class="mail" placeholder="Adresse mail"  required>
 
+                        <label for="name"></label>
+                        <input type="name" id="name" name="name" placeholder="Prénom" class="littlebox" required>
+                    </div>
+                    <div class="footer-section">
+                        <label for="message"></label>
+                        <input type="text" id="message" placeholder="Message" name="message"  class="message" required>
+                    </div>
+                </div>
+                <div class="button">
+                   <a href="#contact"><button>Envoyer !</button></a>
+                </div>
+                <div class="footer-bottom">
+                    &copy; LIGUORI TONY
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
