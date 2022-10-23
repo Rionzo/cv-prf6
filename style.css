@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10% ;
+    border-bottom: 1px solid rgba(0,136,169,1);
 }
 
 .navbar {
@@ -64,7 +65,7 @@ h1 {
 }
 
 h1:hover {
-    color: #0088a9;
+    color: #05a7cf;
     transition: all 0.3s ease 0s;
 }
 
@@ -75,6 +76,8 @@ h1:hover {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 .imgbox img {
@@ -87,3 +90,49 @@ h1:hover {
     transform: scale(1.2);
 }
 
+h2 a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    transition: all 0.3s ease 0s;
+    cursor: auto;
+}
+
+h2 a:hover {
+    color: #16b5dd;
+}
+
+.txt {
+    justify-content: center;
+    margin-top: 14%;
+    font-weight: 100;
+    color: #edf0f1;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.txt h3 {
+    padding-top: 20px;
+    font-size: 3rem;
+    color: #d3d633;
+    
+}
+
+.txt span {
+    font-size: 2rem;
+    color: #18768d;
+    font-style: italic;
+}
+
+.txt p {
+    font-size: 1rem;
+}
+
+.opa {
+    padding-bottom: 3%;
+    opacity: 0;
+}
+
+.opar {
+    padding-bottom: 0.2%;
+    opacity: 0;
+}
